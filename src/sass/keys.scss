@@ -1,6 +1,6 @@
 .white-key {
   height: 17rem;
-  width: 5rem;
+  width: 4em;
   position: relative;
   background-color: linen;
   border-left: 1px solid black;
@@ -19,6 +19,6 @@
   z-index: 1;
 }
 
-.white-key:hover {
-  box-shadow: inset 5px 0px 10px gray, inset -5px -5px 10px gray;
-}
+// .white-key:hover {
+//   box-shadow: inset 2px 0px 5px gray, inset -2px -2px 5px gray;
+// }
