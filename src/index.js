@@ -1,12 +1,13 @@
 const keyboard = document.querySelector("#keyboard");
-const do1 = document.getElementById("do");
 
-console.log(do1);
+let pressedKey;
 
 keyboard.addEventListener("mousedown", function (e) {
   const key = e.target;
   key.style.boxShadow = "inset 2px 0px 5px gray, inset -2px -2px 5px gray";
-  key.querySelector(".sound").cloneNode(true).play();
+  if (pressedKey) pressedKey.pause();
+  pressedKey = key.querySelector(".sound").cloneNode(true);
+  pressedKey.play();
 });
 
 ["mouseup", "mouseout"].forEach((event) => {
