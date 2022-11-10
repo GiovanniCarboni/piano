@@ -1,0 +1,24 @@
+.white-key {
+  height: 35rem;
+  width: 9rem;
+  position: relative;
+  background-color: linen;
+  border-left: 1px solid black;
+}
+.white-key:first-of-type {
+  border-left: none;
+}
+
+.black-key {
+  width: 4rem;
+  height: 20rem;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  transform: translateX(50%);
+  z-index: 1;
+}
+
+.white-key:hover {
+  box-shadow: inset 5px 0px 10px gray, inset -5px -5px 10px gray;
+}

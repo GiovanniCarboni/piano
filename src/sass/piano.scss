@@ -1,0 +1,23 @@
+#piano {
+  width: fit-content;
+  margin: 5rem auto;
+  padding: 3rem;
+  padding-top: 15rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-image: radial-gradient(#ffff8f, #ffea00, #fdda0d, #ffbf00);
+  position: relative;
+}
+#keyboard {
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid black;
+}
+#brand {
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  font-size: 4rem;
+  color: gray;
+}
