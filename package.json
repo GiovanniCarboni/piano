@@ -13,6 +13,8 @@
     "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
-    "sass": "^1.56.1"
+    "howler": "^2.2.3",
+    "sass": "^1.56.1",
+    "sounds": "^1.0.2"
   }
 }

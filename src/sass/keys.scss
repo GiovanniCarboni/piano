@@ -4,12 +4,14 @@
   position: relative;
   background-color: linen;
   border-left: 1px solid black;
+  box-shadow: inset 0px -5px rgb(112, 112, 109);
 }
 .white-key:first-of-type {
   border-left: none;
 }
 
 .black-key {
+  box-shadow: inset 0px -5px rgb(112, 112, 109);
   width: 2rem;
   height: 10rem;
   background-color: black;
@@ -18,7 +20,3 @@
   transform: translateX(50%);
   z-index: 1;
 }
-
-// .white-key:hover {
-//   box-shadow: inset 2px 0px 5px gray, inset -2px -2px 5px gray;
-// }

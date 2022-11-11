@@ -17,8 +17,8 @@
 }
 #keyboard {
   display: flex;
-  border-radius: 8px;
+  border-radius: 0 0 8px 8px;
   overflow: hidden;
   border: 2px solid black;
-  box-shadow: 0px 2px 4px black;
+  // box-shadow: 0px 2px 4px black;
 }
